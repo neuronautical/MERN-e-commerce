@@ -9,7 +9,6 @@ function App() {
   return (
   
     <BrowserRouter>
-  
     <div className='d-flex flex-column site-container'>
       <header>
 
@@ -22,9 +21,10 @@ function App() {
           </Container>
         </Navbar>
         
-      {/* Simple React Header */}
-       {/* <Link to="/">amazona</Link> */}
+        {/* Simple React Header */}
+        {/* <Link to="/">amazona</Link> */}
       </header>
+
       <main>
         <Container>
           <Routes>
@@ -33,20 +33,15 @@ function App() {
           </Routes>
         </Container>
       </main>
+
       <footer>
         <div>
           All Rights Reserved
         </div>
       </footer>
+
     </div>    
-    
-    
     </BrowserRouter>
-
-
-
-
-  );
-}
+)}
 
 export default App;

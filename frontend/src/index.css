@@ -16,34 +16,42 @@ main {
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #ffc000;
+  color: black;
+  border: none;
+  outline: none !important;
+}
+
+.btn-primary:focus {
+  outline: none;
+}
+.btn-primary:hover {
+  background-color: black;
+  color: #ffc000;
+}
+
 footer {
   display: grid;
   place-content: center;
   margin-bottom: 2.5%;
 }
 
-.products {
-  display: flex;
-  justify-content: center;
-}
-
-.product {
-  border: 1px solid #404040;
-  margin: 1rem;
-}
-
-.product img {
-  max-width: 100%;
-}
-
-.product-info {
-  padding: 1rem;;
-
-}
-
-.product-info > a {
+.link-title, .title {
   text-decoration: none;
-  color: inherit;
-  flex: wrap;
-
+  color: black;
+  transition: 100ms all ease-in-out;
 }
+
+
+.link-title:hover, .title:hover {
+  color: gray;
+  transform: scale(1.01);
+}
+
+
+
+.rating span {
+  color: #ffc000;
+}
+
